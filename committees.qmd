@@ -10,7 +10,7 @@ include-in-header:
 ```{r}
 #| echo: false
 #| eval: true
-library(distilltools)
+library(distilltools) #if not installed, use devtools::install_github("ellakaye/distilltools")
 ```
 
 :::: {.columns}
@@ -40,6 +40,13 @@ Ella is a Research Software Engineer in the Department of Statistics at the Univ
   icon = "mastodon",
   text = "Mastodon",
   url = "https://fosstodon.org/@ellakaye",
+  rel = "me noopener"
+)
+`
+`r icon_link(
+  icon = "bluesky",
+  text = "BlueSky",
+  url = "https://bsky.app/profile/ellakaye.co.uk",
   rel = "me noopener"
 )`
 :::
