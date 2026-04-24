@@ -30,7 +30,7 @@ Note that March is a particularly tricky month, with clock-changes on different 
 ![](images/rainbowR-latest-meetup-apac.png)
 
 
-**{{< localtime 2026-03-30 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
+**{{< localtime 2026-04-27 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
 :::
