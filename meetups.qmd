@@ -8,15 +8,13 @@ toc: true
 We're using the new Quarto extension [`localtime`](https://github.com/EllaKaye/localtime) to render the meeting times in your local time in the browser! These appear just under the flier image. The UTC times are shown in the fliers, for comparison.
 
 Please note that `localtime` is currently experimental. Please [let us know](https://github.com/EllaKaye/localtime/issues) if something doesn't look right.
-
-Note that March is a particularly tricky month, with clock-changes on different dates in different parts of the world.
 :::
 
 :::: {.columns}
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup.png)
 
-**{{< localtime 2026-04-29 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
+**{{< localtime 2026-05-27 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
 
@@ -30,7 +28,7 @@ Note that March is a particularly tricky month, with clock-changes on different 
 ![](images/rainbowR-latest-meetup-apac.png)
 
 
-**{{< localtime 2026-04-27 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
+**{{< localtime 2026-05-25 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
 :::
